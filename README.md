@@ -15,21 +15,21 @@ The following is the list of the available input:<br />
 
 # Required parameters
 The following is the list of parameters that needs to be calculated:
-1.Positive Score:Total count of positive words for the relevant paragraphs in the given url
-2.Negative Score: Total count of negative words for the relevant paragrpahs in the given url a given url
-3.Polarity Score: This is the score that determines if a given text is positive or negative innature. It is calculated by using the formula:
+1. Positive Score:Total count of positive words for the relevant paragraphs in the given url
+2. Negative Score: Total count of negative words for the relevant paragrpahs in the given url a given url
+3. Polarity Score: This is the score that determines if a given text is positive or negative innature. It is calculated by using the formula:
  Polarity Score = (Positive Score – Negative Score)/ ((Positive Score + Negative Score) +0.000001)
  Range is from -1 to +1
-4.Subjectivity Score: This is the score that determines if a given text is objective or subjective.It is calculated by using the formula:
+4. Subjectivity Score: This is the score that determines if a given text is objective or subjective.It is calculated by using the formula:
  Subjectivity Score = (Positive Score + Negative Score)/ ((Total Words after cleaning) +0.000001)
-5.Average Sentence Length = the number of words / the number of sentences
-6.Percentage of Complex words = the number of complex words / the number of words
-7.Fog Index = 0.4 * (Average Sentence Length + Percentage of Complex words)
-8.Average Number of Words Per Sentence = the total number of words / the total number of sentences
-9.Count of complex words : Complex words are words in the text that contain more than two syllables.
-10.Word count = Total number of word counts in the relevant paragraphs after cleaning.
-11.Count of personal pronouns
-12.Average Word Length = Sum of the total number of characters in each word/Total number of words.
+5. Average Sentence Length = the number of words / the number of sentences
+6. Percentage of Complex words = the number of complex words / the number of words
+7. Fog Index = 0.4 * (Average Sentence Length + Percentage of Complex words)
+8. Average Number of Words Per Sentence = the total number of words / the total number of sentences
+9. Count of complex words : Complex words are words in the text that contain more than two syllables.
+10. Word count = Total number of word counts in the relevant paragraphs after cleaning.
+11. Count of personal pronouns
+12. Average Word Length = Sum of the total number of characters in each word/Total number of words.
 
 # Procedure 
 1. The complete project is built on object oriented programming in python using a single class and multiple methods.
