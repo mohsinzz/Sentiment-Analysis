@@ -6,12 +6,12 @@ where each url shows an article with a certain number of paragraphs.
 
 # Inputs
 The following is the list of the available input:<br />
-1.Input-  A list of URLs given in a rowwise fashion in excel format.
-2.Positive words - A list of positive words stored in .txt format.
-3.Negative words - A list of positive words stored in .txt format.
-4.Stop words -  A list of stop words stored in .txt format.
+1. Input-  A list of URLs given in a rowwise fashion in excel format.
+2. Positive words - A list of positive words stored in .txt format.
+3. Negative words - A list of positive words stored in .txt format.
+4. Stop words -  A list of stop words stored in .txt format.
 6. Formulae list for paramters - Where the formulas for certain parameters are given
-5.Output Structure - An Excel file that describes the structure of the output.
+5. Output Structure - An Excel file that describes the structure of the output.
 
 # Required parameters
 The following is the list of parameters that needs to be calculated:
