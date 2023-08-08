@@ -5,7 +5,7 @@ The project aims at analysing certain text parameters and finding the sentiments
 where each url shows an article with a certain number of paragraphs.
 
 # Inputs
-The following is the list of the available input:
+The following is the list of the available input:<br />
 1.Input-  A list of URLs given in a rowwise fashion in excel format.
 2.Positive words - A list of positive words stored in .txt format.
 3.Negative words - A list of positive words stored in .txt format.
